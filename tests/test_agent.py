@@ -14,7 +14,7 @@ action = agent.choose_action(state)
 
 print("Chosen Action:", action)
 
-next_state, reward, done = env.step(action)
+next_state, reward, done, water_used = env.step(action)
 
 print("Reward:", reward)
 
